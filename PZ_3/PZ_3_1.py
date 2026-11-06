@@ -43,8 +43,7 @@ while type(x2) != float:
         x2 = float(x2)
     except ValueError:
         print("ошибка нужно ввести число")
-        x2 = input("введите число")
-
+        x2 = input("введите число.")
 if x1 <= x <= x2 and y2 <= y <= y1:
     print("\nИстина: точка лежит внутри прямоугольника (или на его границе).")
 else:
